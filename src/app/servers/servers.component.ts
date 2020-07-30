@@ -28,6 +28,5 @@ onCreateServer() {
 onUpdateServerName(event: Event) {
 console.log(event);
 this.serverName = (<HTMLInputElement> event.target).value;
-
 }
 }
